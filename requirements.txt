@@ -1,0 +1,8 @@
+numpy
+scipy
+pandas
+geopandas
+matplotlib
+tqdm
+spectral
+ipywidgets
