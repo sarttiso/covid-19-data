@@ -10,6 +10,7 @@ The datasets that I have added are:
 - [American Community Survey (ACS) 2018 data](https://www2.census.gov/geo/tiger/TIGER_DP/2018ACS/ACS_2018_5YR_COUNTY.gdb.zip) (note that this dataset is 700 MB) from the US Census Bureau. I have taken subsets of data from this geodatabase, which are listed below, and many other demographic categories are available. Note that metadata necessary to parse the demographic codes in these tables is provided in [this file](https://www2.census.gov/geo/docs/maps-data/data/tiger/prejoined/ACSMetadata2011.txt).
   - [race](ACS_2018_X02_RACE.txt): This data comes from the X02_RACE table.
   - [income](ACS_2018_X19_INCOME.txt): This data comes from the X19_INCOME table.
+- [County level presidential election results through 2016](https://doi.org/10.7910/DVN/VOQCHQ)
 
 Note that I am using [git LFS](https://git-lfs.github.com/) to deal with (possibly) large datasets. The only tracked dataset at this point is the shapefile of US counties.
 
